@@ -5,15 +5,13 @@ const port = 8080;
 app.use(express.static("payment gateway"))
 
 
-app.use(express.static("payment gateway"));
+// app.get('/', (req, res) => {
+//     res.sendFile(path.join(__dirname, 'views/index.html'));
+// });
 
-app.get('/', (req, res) => {
-    res.sendFile(path.join(__dirname, 'views/index.html'));
-});
-
-app.get('/about', (req, res) => {
-    res.sendFile(path.join(__dirname, 'views/about.html'));
-});
+// app.get('/about', (req, res) => {
+//     res.sendFile(path.join(__dirname, 'views/about.html'));
+// });
 
 
 
